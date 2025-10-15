@@ -1,0 +1,22 @@
+{
+  "name": "scootagator",
+  "version": "1.0.0",
+  "description": "A 3-in-1 app for UF students.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/N3rfed/ScootAGator"
+  },
+  "author": "HCI Group 34",
+  "license": "ISC"
+}
