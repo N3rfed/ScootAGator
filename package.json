@@ -2,17 +2,23 @@
   "name": "scootagator",
   "version": "1.0.0",
   "description": "A 3-in-1 app for UF students.",
-  "main": "server.js",
+  "main": "App.js",
   "scripts": {
-    "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"  
   },
   "dependencies": {
     "cors": "^2.8.5",
+    "expo": "^54.0.13",
+    "react": "18.1.0",
+    "react-native": "0.70.5",
     "express": "^4.17.1",
-    "mongoose": "^6.0.12"
+    "mongoose": "^6.0.12",
+    "react-dom": "19.1.0",
+    "react-native-web": "^0.21.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/N3rfed/ScootAGator"
